@@ -1,0 +1,45 @@
+.cart-Container  {
+    text-align: left;
+    min-height: 150px;
+    max-height: 70%;
+    margin: 80px auto;
+    border: 6px;
+    position: auto;
+    right: 15px;
+    top: 50px;
+    min-width: 30%;
+    border-radius: 10px 0 10px 10px;
+    box-shadow: 1px 2px 3px 0px black;
+    display: inline-block;  
+    padding: 10px;
+    background-color: var(--c3);
+    filter: drop-shadow(1px 2px 3px #000);
+    border-right: solid 10px var(--c2) !important;
+    background-color: rgb(220, 215, 248);
+}
+
+.cart-Container * {
+    font-size: 1rem;
+}
+
+.list{
+    max-height: 400px;
+    overflow: auto;
+}
+.cart-Container button {
+    height: 40px;
+    margin-right: 20px;
+    background-color: rgb(233, 224, 243);
+    border: 1px solid rgb(226, 227, 240);
+
+
+}
+.cart-Container button:hover{
+    background-color: rgb(224, 205, 245);
+}
+
+.totalPrice{
+    padding: 7px;
+    border: 1px solid rgb(226, 227, 240);
+
+}
